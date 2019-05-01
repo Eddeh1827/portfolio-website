@@ -3738,7 +3738,10 @@ input, select, textarea {
 			}
 
 		}
-
+#name-intro {
+	color: blue;
+	font-size: 22px;
+}
 /* Wrapper */
 
 	#wrapper {
