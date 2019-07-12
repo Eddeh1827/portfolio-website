@@ -1,233 +1,346 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Author by FreeHTML5.co
+	Twitter: https://twitter.com/fh5co
+	Facebook: https://fb.com/fh5co
+	URL: https://freehtml5.co
 -->
-<html>
-  <head>
-    <title>Eddie Bickham's Portfolio</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Header -->
-      <header id="header" class="alt">
-        <span class="logo"><img src="images/logo.svg" alt=""/></span>
-        <h1>Eddie Bickham</h1>
-        <p>
-          Welcome to my portfolio. This template was<br />
-          built by <a href="https://twitter.com/ajlkn">@ajlkn</a>. Though you'll
-          find the projects here were created by me.
-        </p>
-      </header>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<title>Author</title>
+</head>
+<body>
 
-      <!-- Nav -->
-      <nav id="nav">
-        <ul>
-          <li><a href="#intro" class="active">Introduction</a></li>
-          <li><a href="#first">Projects</a></li>
-          <li><a href="#second">Background</a></li>
-          <li><a href="#cta">Education</a></li>
-        </ul>
-      </nav>
+	<!-- Navigation -->
+	<nav class="site-navigation">
+		<div class="site-navigation-inner site-container">
+			<img src="./images/site-logo.png" alt="site logo">
+			<div class="main-navigation">
+				<ul class="main-navigation__ul">
+					<li><a href="#">Homepage</a></li>
+					<li><a href="#">Page 1</a></li>
+					<li><a href="#">Page 2</a></li>
+					<li><a href="#">Page 3</a></li>
+					<li><a href="#">Page 4</a></li>
+				</ul>
+			</div>
+			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
 
-      <!-- Main -->
-      <div id="main">
-        <!-- Introduction -->
-        <section id="intro" class="main">
-          <div class="spotlight">
-            <div class="content">
-              <header class="major">
-                <h2>Introduction</h2>
-              </header>
-              <p>
-                Welcome. My name is <span id="name-intro">Eddie Bickham</span>.
-                I'm currently becoming a Full Stack Web Developer through
-                <strong>Lambda School's</strong> Full Stack Developer Program.
-              </p>
-              <ul class="actions">
-                <li><a href="generic.html" class="button">Learn More</a></li>
-              </ul>
-            </div>
-            <span class="image"
-              ><img src="images/selfie.JPG" alt="Selfie"
-            /></span>
-          </div>
-        </section>
+		</div>
+	</nav>
+	<!-- Navigation end -->
 
-        <!-- First Section -->
-        <section id="first" class="main special">
-          <header class="major">
-            <h2>What I Do</h2>
-          </header>
-          <ul class="features">
-            <li>
-              <span class="icon major style1 fa-code"></span>
-              <h3>Code</h3>
-              <p>
-                I've been coding almost every day for the last 2.5 years. I am skilled in: <br>
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-css3-alt"></i>
-              </p>
-            </li>
-            <li>
-              <span class="icon major style3 fa-copy"></span>
-              <h3>Amed sed feugiat</h3>
-              <p>
-                Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                consequat tempus veroeros sed consequat.
-              </p>
-            </li>
-            <li>
-              <span class="icon major style5 fa-diamond"></span>
-              <h3>Dolor nullam</h3>
-              <p>
-                Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                consequat tempus veroeros sed consequat.
-              </p>
-            </li>
-          </ul>
-          <footer class="major">
-            <ul class="actions special">
-              <li><a href="generic.html" class="button">Learn More</a></li>
-            </ul>
-          </footer>
-        </section>
+	<!-- Top banner -->
+	<section class="fh5co-top-banner">
+		<div class="top-banner__inner site-container">
+			<div class="top-banner__image">
+				<img src="./images/top-banner-author.jpg" alt="author image">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<span class="brand-span">Hello! I'm</span>
+					<h2 class="top-banner__h2">Jhone</h2>
+				</div>
+				<div class="top-banner__text-down">
+					<h2 class="top-banner__h2">Smith</h2>
+					<span class="brand-span">Author, Writer, Traveler</span>
+				</div>
+				<p>One Man. One Mission. Can He Go Beyond?One Man. One Mission. Can He Go Beyond?</p>
+				<a href="#" class="brand-button">Read bio > </a>
+			</div>
+		</div>
+	</section>
+	<!-- Top banner end -->
 
-        <!-- Second Section -->
-        <section id="second" class="main special">
-          <header class="major">
-            <h2>Ipsum consequat</h2>
-            <p>
-              Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.
-            </p>
-          </header>
-          <ul class="statistics">
-            <li class="style1">
-              <span class="icon fa-code-fork"></span>
-              <strong>5,120</strong> Etiam
-            </li>
-            <li class="style2">
-              <span class="icon fa-folder-open-o"></span>
-              <strong>8,192</strong> Magna
-            </li>
-            <li class="style3">
-              <span class="icon fa-signal"></span>
-              <strong>2,048</strong> Tempus
-            </li>
-            <li class="style4">
-              <span class="icon fa-laptop"></span>
-              <strong>4,096</strong> Aliquam
-            </li>
-            <li class="style5">
-              <span class="icon fa-diamond"></span>
-              <strong>1,024</strong> Nullam
-            </li>
-          </ul>
-          <p class="content">
-            Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu
-            arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac
-            arcu sit amet, fermentum pellentesque et purus. Integer maximus
-            varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-            placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-            ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget
-            purus nec nulla mattis et accumsan ut magna libero. Morbi auctor
-            iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque.
-            Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui
-            curabitur lacinia.
-          </p>
-          <footer class="major">
-            <ul class="actions special">
-              <li><a href="generic.html" class="button">Learn More</a></li>
-            </ul>
-          </footer>
-        </section>
+	<!-- About me -->
+	<section class="fh5co-about-me">
+		<div class="about-me-inner site-container">
+			<article class="portfolio-wrapper">
+				<div class="portfolio__img">
+					<img src="./images/about-me.jpg" class="about-me__profile" alt="about me profile picture">
+				</div>
+				<div class="portfolio__bottom">
+					<div class="portfolio__name">
+						<span>J</span>
+						<h2 class="universal-h2">hone Smith</h2>
+					</div>
+					<p>Jhone Smith is a short story author, novelist, and award-winning poet.</p>
+				</div>
+			</article>
+			<div class="about-me__text">
+				<div class="about-me-slider">
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">About me</h2>
+						<p><span>H</span> e has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and the British Fantasy Society journal Dark Horizons. He is also CEO of a company, specializing in custom book publishing and social media marketing services, have created a community for authors to learn and connect.He has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and have created a community for authors to learn and connect.</p>
+						<h4>Author</h4>
+						<p class="p-white">See me</p>
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">About me 2</h2>
+						<p><span>H</span> e has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and the British Fantasy Society journal Dark Horizons. He is also CEO of a company, specializing in custom book publishing and social media marketing services, have created a community for authors to learn and connect.He has work appearing or forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and have created a community for authors to learn and connect.</p>
+						<h4>Author</h4>
+						<p class="p-white">See me</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-me-bckg"></div>
+	</section>
+	<!-- About me end -->
 
-        <!-- Get Started -->
-        <section id="cta" class="main special">
-          <header class="major">
-            <h2>Congue imperdiet</h2>
-            <p>
-              Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.
-            </p>
-          </header>
-          <footer class="major">
-            <ul class="actions special">
-              <li>
-                <a href="generic.html" class="button primary">Get Started</a>
-              </li>
-              <li><a href="generic.html" class="button">Learn More</a></li>
-            </ul>
-          </footer>
-        </section>
-      </div>
+	<!-- Books and CD -->
+	<section class="fh5co-books">
+		<div class="site-container">
+			<h2 class="universal-h2 universal-h2-bckg">New Books And CD</h2>
+			<div class="books">
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/books-1.jpg" alt="single book and cd">
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+						</div>
+					</a>
+					<h4 class="single-book__title">Olivani</h4>
+					<span class="single-book__price">$15.00</span>
+					<!-- star rating -->
+					<div class="rating">
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+					</div>
+					<!-- star rating end -->
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/books-2.jpg" alt="single book and cd">
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+						</div>
+					</a>
+					<h4 class="single-book__title">Molleon’s Life</h4>
+					<span class="single-book__price">$22.00</span>
+					<!-- star rating -->
+					<div class="rating">
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+						<span>&#9734;</span>
+					</div>
+					<!-- star rating end -->
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/books-3.jpg" alt="single book and cd">
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+						</div>
+					</a>
+					<h4 class="single-book__title">Love is Love</h4>
+					<span class="single-book__price">$25.00</span>
+				</div>
+				<div class="single-book">
+					<a href="#" class="single-book__img">
+						<img src="./images/books-4.jpg" alt="single book and cd">
+						<div class="single-book_download">
+							<img src="./images/download.svg" alt="book image">
+						</div>
+					</a>
+					<h4 class="single-book__title">Give Me Also</h4>
+					<span class="single-book__price">$30.00</span>
+				</div>
+			</div>
+			<div class="books-brand-button">
+				<a href="#" class="brand-button">View more</a>
+			</div>
+		</div>
+	</section>
+	<!-- Books and CD end -->
 
-      <!-- Footer -->
-      <footer id="footer">
-        <section>
-          <h2>Aliquam sed mauris</h2>
-          <p>
-            Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-            magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris.
-            Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas
-            velit, vitae tincidunt odio.
-          </p>
-          <ul class="actions">
-            <li><a href="generic.html" class="button">Learn More</a></li>
-          </ul>
-        </section>
-        <section>
-          <h2>Eddie Bickham</h2>
-          <dl class="alt">
-            <dt>Phone</dt>
-            <dd>() 000-0000 x 0000</dd>
-            <dt>Email</dt>
-            <dd><a href="#">bickhame@gmail.com</a></dd>
-          </dl>
-          <ul class="icons">
-            <li>
-              <a href="http://twitter.com/Eddeh1827" class="icon fa-twitter alt"
-                ><span class="label">Twitter</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="http://instagram.com/eddiebickham"
-                class="icon fa-instagram alt"
-                ><span class="label">Instagram</span></a
-              >
-            </li>
-            <li>
-              <a href="http://github.com/eddeh1827" class="icon fa-github alt"
-                ><span class="label">GitHub</span></a
-              >
-            </li>
-          </ul>
-        </section>
-        <p class="copyright">
-          &copy; Stellar. Design: <a href="https://html5up.net">HTML5 UP</a>.
-        </p>
-      </footer>
-    </div>
+	<!-- Counter -->
+	<div class="fh5co-counter counters">
+		<div class="counter-inner site-container">
+			<div class="single-count">
+				<span class="count" data-count="50">0</span>
+				<div class="single-count__text">
+					<img src="./images/counter-1.png" alt="counter icon">
+					<p>Books</p>
+				</div>
+			</div>
+			<div class="single-count">
+				<span class="count" data-count="600">0</span>
+				<div class="single-count__text">
+					<img src="./images/counter-2.png" alt="counter icon">
+					<p>Pages</p>
+				</div>
+			</div>
+			<div class="single-count">
+				<span class="count" data-count="2000">0</span>
+				<div class="single-count__text">
+					<img src="./images/counter-3.png" alt="counter icon">
+					<p>Sales</p>
+				</div>
+			</div>
+			<div class="single-count">
+				<span class="count" data-count="125">0</span>
+				<div class="single-count__text">
+					<img src="./images/counter-4.png" alt="counter icon">
+					<p>Awards</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Counter -->
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+	<!-- Blog -->
+	<section class="fh5co-blog">
+		<div class="site-container">
+			<h2 class="universal-h2 universal-h2-bckg">My Blog</h2>
+			<div class="blog-slider blog-inner">
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/blog1.jpg" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>The Journey Under the Waves</h4>
+						<span>On August 28, 2015</span>
+						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/blog2.jpg" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>The Journey Under the Waves</h4>
+						<span>On August 28, 2015</span>
+						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+					</div>
+				</div>
+				<div class="single-blog">
+					<div class="single-blog__img">
+						<img src="./images/blog2.jpg" alt="blog image">
+					</div>
+					<div class="single-blog__text">
+						<h4>The Journey Under the Waves</h4>
+						<span>On August 28, 2015</span>
+						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog end -->
+
+	<!-- Quotes -->
+	<section class="fh5co-quotes">
+		<div class="site-container">
+			<div class="about-me-slider">
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
+					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+					<img src="./images/quotes.svg" alt="quotes svg">
+					<h4>David Dixon</h4>
+					<p>Reader</p>
+				</div>
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying 2</h2>
+					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+					<img src="./images/quotes.svg" alt="quotes svg">
+					<h4>David Dixon</h4>
+					<p>Reader</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Quotes end -->
+
+	<!-- Social -->
+	<section class="fh5co-social">
+		<div class="site-container">
+			<div class="social">
+				<h5>Follow me!!</h5>
+				<div class="social-icons">
+					<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
+				</div>
+				<h5>Share it!</h5>
+			</div>
+		</div>
+	</section>
+	<!-- Social -->
+
+	<!-- Footer -->
+	<footer class="site-footer">
+		<div class="site-container">
+			<div class="footer-inner">
+				<div class="footer-info">
+					<div class="footer-info__left">
+						<img src="./images/footer-img.jpg" alt="about me image">
+						<p>Read more about me</p>
+					</div>
+					<div class="footer-info__right">
+						<h5>Get In Touch</h5>
+						<p class="footer-phone">Phone: +958734902847</p>
+						<p>Email : Jhone@Example.com</p>
+						<div class="social-icons">
+							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
+							<a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
+							<a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
+							<a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-contact-form">
+					<h5>Contact Form</h5>
+					<form class="contact-form">
+						<div class="contact-form__input">
+							<input type="text" name="name" placeholder="Name">
+							<input type="email" name="email" placeholder="Email">
+						</div>
+						<textarea></textarea>
+						<input type="submit" name="submit" value="Submit" class="submit-button">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="site-container footer-bottom-inner">
+				<p>© 2019 Author | Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> | All rights Reserved.</p>
+				<div class="footer-bottom__img">
+					<img src="./images/footer-mastercard.png" alt="footer image">
+					<img src="./images/footer-paypal.png" alt="footer image">
+					<img src="./images/footer-visa.png" alt="footer image">
+					<img src="./images/footer-fedex.png" alt="footer image">
+					<img src="./images/footer-dhl.png" alt="footer image">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end -->
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
 </html>
